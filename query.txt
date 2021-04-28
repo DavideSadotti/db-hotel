@@ -31,14 +31,14 @@
 
 5) Calcola il totale degli ordini accepted
 
-	SELECT COUNT(id), `status`
+	SELECT COUNT(price)
 	FROM `pagamenti`
 	WHERE `status` LIKE 'accepted'
 
 
 6) Qual è il prezzo massimo pagato?
 
-	SELECT `status`, MAX(price)
+	SELECT MAX(price)
 	FROM `pagamenti`
 
 
